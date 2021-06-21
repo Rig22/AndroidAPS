@@ -19,7 +19,8 @@
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:text="@string/actions"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:textColor="@color/rig22Blue"/>
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
@@ -127,7 +128,8 @@
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:text="@string/careportal"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:textColor="@color/rig22Blue"/>
 
         <include
             android:id="@+id/careportal_stats"
@@ -270,7 +272,8 @@
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:text="@string/tools"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:textColor="@color/rig22Blue"/>
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
