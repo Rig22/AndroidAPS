@@ -37,6 +37,5 @@
         android:textColor="@color/white"
         android:background="@android:color/transparent"
         app:backgroundTint="@android:color/transparent"
-
         android:text="+"/>
 </LinearLayout>

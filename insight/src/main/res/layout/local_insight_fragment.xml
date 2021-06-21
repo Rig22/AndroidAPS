@@ -16,6 +16,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" />
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="?android:attr/dividerHorizontal" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,27 +32,52 @@
             android:paddingTop="10dp"
             app:drawableTopCompat="@drawable/ic_insight" />
 
-        <Button
-            android:id="@+id/refresh"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/refresh"
-            android:visibility="gone" />
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/operating_mode"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="16dp"
-            android:visibility="gone" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/tbr_over_notification"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="16dp"
-            android:visibility="gone" />
+            <info.nightscout.androidaps.utils.ui.SingleClickButton
+                android:id="@+id/refresh"
+                style="@style/ButtonSmallFontStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:drawableLeft="@drawable/ic_refresh"
+                android:text="Aktualisieren" />
+
+            <info.nightscout.androidaps.utils.ui.SingleClickButton
+                android:id="@+id/operating_mode"
+                style="@style/ButtonSmallFontStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:drawableLeft="@drawable/ic_operating_mode"
+                android:text="@string/operating_mode" />
+
+            <info.nightscout.androidaps.utils.ui.SingleClickButton
+                android:id="@+id/tbr_over_notification"
+                style="@style/ButtonSmallFontStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:drawableLeft="@drawable/ic_tbr_over_notification"
+                android:text="@string/stats" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
     </LinearLayout>
 
 </ScrollView>

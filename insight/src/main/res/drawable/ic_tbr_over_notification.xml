@@ -1,0 +1,9 @@
+<vector android:height="48dp" android:viewportHeight="64"
+    android:viewportWidth="64" android:width="48dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?attr/statuslightsIconColor" android:pathData="M16.503,21.631h1.005v30.959h-1.005z"/>
+    <path android:fillColor="?attr/statuslightsIconColor" android:pathData="M48.72,21.631h1.005v30.959h-1.005z"/>
+    <path android:fillColor="?attr/statuslightsIconColor" android:pathData="M38.166,27.759h1.005v24.831h-1.005z"/>
+    <path android:fillColor="?attr/statuslightsIconColor" android:pathData="M27.105,32.918h1.005v19.672h-1.005z"/>
+    <path android:fillColor="?attr/statuslightsIconColor" android:pathData="M12.901,55.53c5.343,5.108 12.509,7.894 19.921,7.747c15.424,-0.306 27.704,-13.007 27.404,-28.344c-0.048,-2.429 -0.415,-4.841 -1.093,-7.174l-0.806,0.232c0.658,2.263 1.014,4.603 1.06,6.958c0.291,14.878 -11.62,27.197 -26.582,27.494c-7.189,0.143 -14.14,-2.56 -19.323,-7.514l-0.581,0.601Z"/>
+    <path android:fillColor="?attr/statuslightsIconColor" android:pathData="M59.324,28.923c-2.757,-12.88 -14.211,-22.091 -27.471,-22.091c-15.5,0 -28.084,12.497 -28.084,27.89c-0,7.904 3.377,15.437 9.292,20.726l0.564,-0.622c-5.738,-5.13 -9.014,-12.437 -9.014,-20.104c0,-14.931 12.207,-27.053 27.242,-27.053c12.863,-0 23.972,8.934 26.647,21.428l0.824,-0.174Z"/>
+</vector>
