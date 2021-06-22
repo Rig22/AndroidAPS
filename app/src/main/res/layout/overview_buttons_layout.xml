@@ -28,6 +28,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/treatment_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -43,6 +44,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/insulin_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -58,6 +60,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/carbs_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -73,6 +76,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/wizard_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -88,6 +92,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/calibration_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -103,6 +108,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/cgm_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -118,6 +124,7 @@
         <info.nightscout.androidaps.utils.ui.SingleClickButton
             android:id="@+id/quick_wizard_button"
             style="@style/ButtonSmallFontStyle"
+            android:backgroundTint="?attr/iconBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

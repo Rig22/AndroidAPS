@@ -693,6 +693,7 @@
 
                 <info.nightscout.androidaps.utils.ui.SingleClickButton
                     android:id="@+id/viewprofile"
+                    android:backgroundTint="?attr/iconBackgroundColor"
                     style="@style/ButtonSmallFontStyle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -709,6 +710,7 @@
 
                 <info.nightscout.androidaps.utils.ui.SingleClickButton
                     android:id="@+id/history"
+                    android:backgroundTint="?attr/iconBackgroundColor"
                     style="@style/ButtonSmallFontStyle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -724,6 +726,7 @@
 
                 <info.nightscout.androidaps.utils.ui.SingleClickButton
                     android:id="@+id/stats"
+                    android:backgroundTint="?attr/iconBackgroundColor"
                     style="@style/ButtonSmallFontStyle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -739,6 +742,7 @@
 
                 <info.nightscout.androidaps.utils.ui.SingleClickButton
                     android:id="@+id/user_options"
+                    android:backgroundTint="?attr/iconBackgroundColor"
                     style="@style/ButtonSmallFontStyle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

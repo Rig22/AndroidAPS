@@ -35,7 +35,7 @@
     <color name="splashBackground">#000000</color>
     <!-- Default theme color -->
     <!-- This section describes the main theme colors -->
-    <color name="primaryColorDefault">#333333</color>
+    <color name="primaryColorDefault">#444444</color>
     <color name="primaryDarkColorDefault">#000000</color>
     <color name="primaryLightColorDefault">#bbb9bb</color>
     <color name="secondaryColorDefault">@color/blue_default</color>
@@ -159,6 +159,7 @@
     <color name="white2">#50FFFFFF</color>
     <color name="white3">#30FFFFFF</color>
     <color name="smaragdgreen">#01C03E</color>
+    <color name="iconBackgroundColor">#000000</color>
     <!-- Custom Theme Colors -->
     <color name="defaulttextcolor">#FFFFFF</color>
 </resources>
