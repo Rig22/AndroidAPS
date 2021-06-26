@@ -576,9 +576,6 @@ class OpenHumansUploader @Inject constructor(
         closeEntry()
     }
 
-    private fun removeUploadedEntriesFromQueue(highestId: Long) = Completable.fromCallable {
-//        databaseHelper.removeAllOHQueueItemsWithIdSmallerThan(highestId)
-    }
 
     private fun handleSignOut() {
         val notification = NotificationCompat.Builder(context, NOTIFICATION_CHANNEL)
