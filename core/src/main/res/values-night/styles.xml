@@ -302,6 +302,8 @@
         <item name="tddStatsActivityBackgroundColor" >@color/transparent</item>
         <item name="activity_title_background" >@color/background_dark</item>
         <item name="graphViwewportBackground" >@color/black_alpha_20</item>
+        <!---diaconn -->
+        <item name="colorInitializingBorder" >@color/colorInitializingBorder</item>
     </style>
 
     <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents.DayNight.Bridge"/>
@@ -342,11 +344,11 @@
     <style name="Text.Button" parent="TextAppearance.AppCompat.Button"/>
 
     <!-- Button Styles-->
-    <style name="Buton" parent="Widget.AppCompat.Button"/>
-    <style name="Buton.Small" parent="Widget.AppCompat.Button.Small"/>
-    <style name="Buton.Colored" parent="Widget.MaterialComponents.Button"/>
-    <style name="Buton.Borderless" parent="Widget.AppCompat.Button.Borderless"/>
-    <style name="Buton.Borderless.Colored" parent="Widget.AppCompat.Button.Borderless.Colored"/>
+    <style name="Button" parent="Widget.AppCompat.Button"/>
+    <style name="Button.Small" parent="Widget.AppCompat.Button.Small"/>
+    <style name="Button.Colored" parent="Widget.MaterialComponents.Button"/>
+    <style name="Button.Borderless" parent="Widget.AppCompat.Button.Borderless"/>
+    <style name="Button.Borderless.Colored" parent="Widget.AppCompat.Button.Borderless.Colored"/>
 
 
     <style name="Theme.AppCompat.Translucent" parent="AppTheme">
@@ -396,5 +398,6 @@
 
     <!-- Custom Theme -->
     <style name="CustomTheme">
+        <item name="iconBackgroundColor" >@color/black</item>
     </style>
 </resources>

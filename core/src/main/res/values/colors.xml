@@ -205,5 +205,6 @@
     <color name="white3">#30FFFFFF</color>
     <color name="smaragdgreen">#01C03E</color>
     <color name="r22lila">#9C27B0</color>
+    <color name="iconBackgroundColor">#fafafa</color>
 
 </resources>

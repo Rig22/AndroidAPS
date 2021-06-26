@@ -19,7 +19,8 @@
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:text="@string/actions"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:textColor="@color/rig22Blue"/>
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
@@ -29,6 +30,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_profileswitch"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -44,6 +46,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_temptarget"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -59,6 +62,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_settempbasal"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -74,6 +78,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_canceltempbasal"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -90,6 +95,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_extendedbolus"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -105,6 +111,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_extendedbolus_cancel"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -127,7 +134,8 @@
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:text="@string/careportal"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:textColor="@color/rig22Blue"/>
 
         <include
             android:id="@+id/careportal_stats"
@@ -144,6 +152,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_bgcheck"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -159,6 +168,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_fill"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -174,6 +184,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_cgmsensorinsert"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -189,6 +200,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_pumpbatterychange"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -204,6 +216,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_note"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -219,6 +232,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_exercise"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -234,6 +248,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_announcement"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -249,6 +264,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_question"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -270,7 +286,8 @@
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:text="@string/tools"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:textColor="@color/rig22Blue"/>
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
@@ -280,6 +297,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_historybrowser"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -295,6 +313,7 @@
 
             <info.nightscout.androidaps.utils.ui.SingleClickButton
                 android:id="@+id/actions_tddstats"
+                android:backgroundTint="?attr/iconBackgroundColor"
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
