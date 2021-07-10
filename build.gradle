@@ -2,10 +2,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.5.10'
     ext {
-        kotlin_version = '1.5.0'
-        coreVersion = '1.5.0'
+        kotlin_version = '1.5.10'
+        coreVersion = '1.6.0'
         rxjava_version = '2.2.21'
         rxandroid_version = '2.1.1'
         rxkotlin_version = '2.4.0'
@@ -43,7 +42,7 @@ buildscript {
         maven { url "https://plugins.gradle.org/m2/" } // jacoco 0.2
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.0-alpha02'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         classpath 'com.google.gms:google-services:4.3.8'
         classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
 
@@ -66,7 +65,6 @@ allprojects {
         mavenCentral()
         maven { url "https://maven.google.com" }
         maven { url 'https://jitpack.io' }
-        maven { url "https://google.bintray.com/flexbox-layout" }
         ivy {
             url 'https://github.com/'
             patternLayout {
